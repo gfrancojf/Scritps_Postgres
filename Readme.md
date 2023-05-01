@@ -30,7 +30,7 @@ Para utilizar el script de respaldo automático en PostgreSQL, siga estos pasos:
 3. Ejecute el comando python respaldo.py.
 4. El script generará un archivo de respaldo en la ruta especificada en BACKUP_PATH.
 Puede ajustar la frecuencia de ejecución del script utilizando el programador de tareas (crontab) en Linux. Por ejemplo, para ejecutar el script todos los días a las 11:00 PM, agregue la siguiente línea en su archivo de crontab:
-
+  0 23 * * * /usr/bin/python /ruta/al/archivo/respaldo.py
 
 
 
