@@ -14,10 +14,15 @@ Este script en Python permite realizar respaldos automáticos de una base de dat
 
 1. Descargue el archivo respaldo.py en su sistema.
 2. Abra el archivo y establezca las credenciales de acceso a la base de datos en las siguientes líneas
+ ![Config](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img01.PNG?raw=true)
+
 3. Para cargar las variables de entorno desde el archivo .env, podemos usar la librería python-dotenv. Para usarla, debemos instalarla primero usando pip:
    "pip install python-dotenv"
+  ![python-dotenv](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img03.PNG?raw=true)
 4. Establezca la ruta donde se guardarán los archivos de respaldo en la siguiente línea:
-5. Guarde y cierre el archivo.
+ ![backup_path](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img02.PNG?raw=true)
+
+6. Guarde y cierre el archivo.
 
 ## Instrucciones de Uso
 
@@ -29,8 +34,10 @@ Para utilizar el script de respaldo automático en PostgreSQL, siga estos pasos:
 2. Vaya al directorio donde se encuentra el archivo respaldo.py.
 3. Ejecute el comando python respaldo.py.
 4. El script generará un archivo de respaldo en la ruta especificada en BACKUP_PATH.
+
+
 Puede ajustar la frecuencia de ejecución del script utilizando el programador de tareas (crontab) en Linux. Por ejemplo, para ejecutar el script todos los días a las 11:00 PM, agregue la siguiente línea en su archivo de crontab:
-  0 23 * * * /usr/bin/python /ruta/al/archivo/respaldo.py
+ ![crontab](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img04.PNG?raw=true)
 
 
 
