@@ -17,7 +17,7 @@ Este script en Python permite realizar respaldos automáticos de una base de dat
  ![Config](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img01.PNG?raw=true)
 
 3. Para cargar las variables de entorno desde el archivo .env, podemos usar la librería python-dotenv. Para usarla, debemos instalarla primero usando pip:
-   "pip install python-dotenv"
+ 
   ![python-dotenv](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img03.PNG?raw=true)
 4. Establezca la ruta donde se guardarán los archivos de respaldo en la siguiente línea:
  ![backup_path](https://github.com/gfrancojf/Scritps_Postgres/blob/Main/img/img02.PNG?raw=true)
